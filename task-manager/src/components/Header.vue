@@ -1,17 +1,23 @@
 <template>
   <header>
     <h1>{{title}}</h1>
+    <Button />
   </header>
 </template>
 
 
 <script>
+import Button from './Button';
+
   export default {
     name: 'Header',
     // props can be defined as an array or an object
     // props: ['title']
     props: {
       title: String
+    },
+    components: {
+      Button
     }
   }
 </script>
