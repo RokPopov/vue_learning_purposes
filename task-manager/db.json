@@ -13,11 +13,10 @@
       "reminder": true
     },
     {
-     "id": 3,
+      "id": 3,
       "text": "Drink Cola",
       "day": "Wednesday",
       "reminder": false
     }
   ]
 }
-
