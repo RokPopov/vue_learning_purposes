@@ -1,7 +1,7 @@
 <template>
   <header>
     <h1>{{title}}</h1>
-    <Button text="Add Task" color="black" />
+    <Button @btn-click='$emit("toggle-add-task")' :text="showAddTask ? 'Close' : 'AddTask'" :color="showAddTask ? 'orange' : 'green'" />
   </header>
 </template>
 
@@ -14,7 +14,8 @@ import Button from './Button';
     // props can be defined as an array or an object
     // props: ['title']
     props: {
-      title: String
+      title: String,
+      showAddTask: Boolean
     },
     components: {
       Button

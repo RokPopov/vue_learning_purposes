@@ -11,7 +11,7 @@
     },
     methods: {
       onClick() {
-        console.log("You click! Oke see you.");
+        this.$emit('btn-click');
       }
     }
   }
