@@ -11,8 +11,6 @@ import Button from './Button';
 
   export default {
     name: 'Header',
-    // props can be defined as an array or an object
-    // props: ['title']
     props: {
       title: String,
       showAddTask: Boolean
@@ -23,7 +21,6 @@ import Button from './Button';
   }
 </script>
 
-// scoped means it is only be applicable to this specific component
 <style scoped>
 header {
   display: flex;

@@ -16,7 +16,7 @@
       "id": 3,
       "text": "Drink Cola",
       "day": "Wednesday",
-      "reminder": false
+      "reminder": true
     }
   ]
 }
